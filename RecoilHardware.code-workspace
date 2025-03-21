@@ -7,6 +7,10 @@
         {
             "path": "./simulator",
             "name": "simulator//Wokwi"
+        },
+        {
+            "path":"./hardware",
+            "name":"hardware//KiCad"
         }
     ],
     "settings": {}
