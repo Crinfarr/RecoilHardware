@@ -1,0 +1,25 @@
+{
+    "author": "Crinfarr",
+    "connections": [
+        ["board:5V", "screen:VCC", "red", ["h-20", "*", "v-60"]],
+        ["board:GND.1", "screen:GND", "black", ["h-25", "*", "v-65"]],
+        ["board:A5", "screen:SCL", "purple", ["h-30", "*", "v-70"]],
+        ["board:A4", "screen:SDA", "purple", ["h-35", "*", "v-75"]]
+    ],
+    "editor": "wokwi",
+    "pacman": false,
+    "parts": [
+        {
+            "type": "board-ssd1306",
+            "id": "screen"
+        },
+        {
+            "type": "wokwi-arduino-nano",
+            "id": "board",
+            "rotate": 90,
+            "left": -200
+        }
+    ],
+    "serialMonitor": {},
+    "version": 1
+}
